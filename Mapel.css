@@ -1,0 +1,137 @@
+body{
+    background-color: #F09FE0;
+    height: 100vh;
+   
+}
+
+body{
+    background-color: #F09FE0;
+}
+
+/* Reset default margin and padding */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 140px;
+}
+  
+  /* Style the navigation bar */
+  .navbar {
+    background-color: #FFF3E2;
+    overflow: visible;
+    padding: 25px;
+  }
+  
+  /* Style the navigation list */
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end; /* Align the items to the right */
+  }
+  
+  /* Style navigation list items */
+  .nav-list li {
+    margin: 0 15px;
+    position: relative;
+  }
+  
+  /* Style navigation links */
+  .nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Change link color on hover */
+  .nav-list li a:hover {
+    color: black;
+  }
+
+  .nav-list ul {
+    list-style-type: none;
+  }
+  
+  
+  /* Style dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF3E2;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Show dropdown content on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Style dropdown content links */
+  .dropdown-content li {
+    padding: 10px;
+  }
+  
+  /* Style dropdown content links on hover */
+  .dropdown-content li:hover {
+    background-color: #FFF3E2;
+  }
+  
+
+
+
+.login{
+    position: absolute;
+    left: 50%;
+    top:  50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 10px;
+    width: 300px;
+    background-color: #FFF3E2;
+    margin-top: -180px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .3);
+    border-radius: 10px;
+}
+
+.atas{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 3% 0;
+    width: 100%;
+    height: 75vh;
+    margin-top: 200px;
+}
+
+.book {
+    text-align: center;
+    width: 26.5vh;
+    height: 44vh;
+    margin: auto;
+    
+}
+
+.book img {
+    width: 26.5vh;
+    height: 40vh;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 80%;
+    border-radius: 25px;
+    padding: 2%;
+    border: none;
+    color: #fff;
+    background-color: black;
+    transition: all .5s;
+    margin-left: 15px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
